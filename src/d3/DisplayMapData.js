@@ -57,7 +57,7 @@ const DisplayMapData = (caseType, caseTitle, data) => {
             .attr('transform', 'rotate(270)')
             .attr('x', -245)
             .attr('y', 45);
-
+        console.log(title , legend)
         // color-coding all circles based on caseType from user input
         g.selectAll("circle")
             .attr("fill", color(caseType));
